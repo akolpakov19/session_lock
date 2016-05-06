@@ -1,4 +1,4 @@
-## Session locker simulation
+## Session locking simulation
 The purpose of this small project is to investigate how session locks work depending on php configuration options
 
 #### Usage
