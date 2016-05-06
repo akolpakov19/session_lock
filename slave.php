@@ -10,6 +10,4 @@ require_once 'memcached_config.php';
 
 session_id(SESSION_NAME);
 session_start();
-echo $_SESSION['test']."\n";
 $_SESSION['test'] = 10;
-echo $_SESSION['test']."\n";

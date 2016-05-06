@@ -34,6 +34,5 @@ ini_set('memcached.sess_sasl_username', '');
 
 
 const SESSION_NAME = 'test_name';
-//ini_set('session.save_handler', 'memcache');
 session_module_name('memcached');
 ini_set('session.save_path', '127.0.0.1:11211');
