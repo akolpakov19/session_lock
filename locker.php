@@ -14,6 +14,7 @@ $sleep_time = 10;
 //output('Starting session');
 session_start();
 $_SESSION['test'] = 1;
+output("Setting value:".$_SESSION['test']);
 output("Sleeping...");
 sleep($sleep_time);
 output("Checking the session:".$_SESSION['test']);
